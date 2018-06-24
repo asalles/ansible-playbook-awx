@@ -1,3 +1,5 @@
+UPDATE (20180624): Modificado EPEL, no funcionaba.
+
 # Ansible Role: EPEL Repository
 
 [![Build Status](https://travis-ci.org/geerlingguy/ansible-role-repo-epel.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-repo-epel)
