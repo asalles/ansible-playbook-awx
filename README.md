@@ -1,3 +1,5 @@
+UPDATE (2018-06-23): Deploy sin problemas. Sólo se requiere modificar hosts "awx.hosts" y tower-cli config host "awx.yml".
+
 # Ansible playbook AWX
 
 ![](https://i.imgur.com/4bNPi6k.png)
