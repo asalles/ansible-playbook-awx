@@ -25,4 +25,4 @@
     - shell: tower-cli config username admin
     - shell: tower-cli config password password
     - shell: tower-cli config verify_ssl false
-    - shell: tower-cli user list
+#    - shell: tower-cli user list
