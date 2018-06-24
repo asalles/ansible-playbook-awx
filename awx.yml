@@ -9,7 +9,7 @@
       - name: docker-py
 
   roles:
-  #  - geerlingguy.repo-epel  #  (falló al probar. pre-registrando un repo epel sería el workaround)
+    - geerlingguy.repo-epel  #  (falló al probar. pre-registrando un repo epel sería el workaround)
     - geerlingguy.git
     - geerlingguy.ansible
     - geerlingguy.docker
