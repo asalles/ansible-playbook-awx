@@ -1,4 +1,4 @@
 [all:vars]
-ssh_user=sisense
+ssh_user=root
 [awx]
-server ansible_host=10.50.4.168
+awx.cautivatech.com  ansible_host=10.199.101.55
