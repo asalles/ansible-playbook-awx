@@ -20,7 +20,7 @@
     - pip:
         name: ansible-tower-cli
         state: latest
-    - shell: tower-cli config host http://"{{ ansible_host }}:80
+    - shell: tower-cli config host http://"{{ ansible_host }}":80
     - shell: tower-cli config username admin
     - shell: tower-cli config password password
     - shell: tower-cli config verify_ssl false
