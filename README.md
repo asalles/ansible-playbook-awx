@@ -2,6 +2,7 @@
 * FIX: sed -i 's;postgres_data_dir=/tmp/pgdocker;postgres_data_dir=/root/pgdocker;'  awx/installer/inventory
 * USAR: http://khmel.org/?p=1245
 
+
 * UPDATE (2018-06-23 asalles): Deploy sin problemas. Sólo se requiere modificar hosts "awx.hosts" y tower-cli config host "awx.yml". geerlingguy.repo-epel no funciona, es mejor comentarlo y preconfigurar epel.
 
 # Ansible playbook AWX
